@@ -1,28 +1,86 @@
-<resources>
-    <string name="app_name">Calculator</string>
+package com.example.kalkulator;
 
-    <string name="zero">0</string>
-    <string name="one">1</string>
-    <string name="two">2</string>
-    <string name="three">3</string>
-    <string name="four">4</string>
-    <string name="five">5</string>
-    <string name="six">6</string>
-    <string name="seven">7</string>
-    <string name="eight">8</string>
-    <string name="nine">9</string>
+import android.os.Bundle;
+import android.view.View;
 
-    <string name="clear">C</string>
-    <string name="exponent">^</string>
-    <string name="parentheses">( )</string>
-    <string name="divide">÷</string>
-    <string name="multiply">×</string>
-    <string name="add">+</string>
-    <string name="subtract">-</string>
-    <string name="plusMinus">+/-</string>
-    <string name="point">.</string>
-    <string name="equals">=</string>
+import androidx.appcompat.app.AppCompatActivity;
 
-    <string name="backspace"> </string>
-    <string name="enter_in_a_value">Enter in a value</string>
-</resources>
+import static com.example.kalkulator.R.layout;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(layout.activity_main);
+    }
+
+    public void zeroBTN (View view) {
+
+    }
+    public void oneBTN (View view) {
+
+    }
+    public void twoBTN (View view) {
+
+    }
+    public void threeBTN (View view) {
+
+    }
+    public void fourBTN (View view) {
+
+    }
+    public void fiveBTN (View view) {
+
+    }
+    public void sixBTN (View view) {
+
+    }
+
+public void sevenBTN (View view) {
+
+        }
+public void eightBTN (View view) {
+
+        }
+public void nineBTN (View view) {
+
+        }
+public void plusMinusBTN (View view) {
+
+        }
+public void pointBTN (View view) {
+
+        }
+public void parenthesesBTN (View view) {
+
+        }
+public void equalsBTN (View view) {
+
+        }
+public void addBTN (View view) {
+
+        }
+public void subtractBTN (View view) {
+
+        }
+public void multiplyBTN (View view) {
+
+        }
+public void divideBTN (View view) {
+
+        }
+
+
+
+public void clearBTN (View view) {
+
+        }
+public void exponentBTN (View view) {
+
+        }
+public void backspaceBTN (View view) {
+
+        }
+
+        }
